@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    margin: 0;
+    
+}
+
+section {
+    color: rgb(0, 0, 0); /* Cor do texto branco */
+    font: bold 20pt arial;
+    text-align: center; /* Centralizar o texto na seção */
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+div {
+    background-color: white;
+    width: 400px; /* ou qualquer largura desejada */
+    height: 150px; /* ou qualquer altura desejada */
+    text-align: center; /* centraliza o conteúdo dentro da div */
+    border-radius: 10px;
+}
+
+button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    font: bold 15pt arial;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+}
+
+#yes:hover {
+    background-color: rgb(37, 219, 0);
+}
+
+#no:hover {
+    background-color: red;
+}
